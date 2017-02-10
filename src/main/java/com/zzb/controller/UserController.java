@@ -9,9 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
  */
 
 @RestController
+@RequestMapping("/user")
 public class UserController {
 
-    @RequestMapping("/user")
+    @RequestMapping("/{id}")
     public String sayHello(){
         User user = new User("zhangsan",23,"男");
         return user.toString();

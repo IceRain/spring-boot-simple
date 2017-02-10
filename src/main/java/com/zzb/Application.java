@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 @Configuration
 @ComponentScan
 @EnableAutoConfiguration
+//@SpringBootApplication
 public class Application {
 //    @RequestMapping("/")
 //    String home() {
